@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 module.exports.getAvatar = function(req, res) {
   const avatar = {
-    name: 'Архипов Александр',
-    picture: '/assets/img/avatar.png'
+    name: 'Юрий Курбаков',
+    picture: '/img/content/avatar.jpg'
   }
   const picture = mongoose.model('pic');
   picture

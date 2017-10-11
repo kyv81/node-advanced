@@ -26,13 +26,13 @@ module.exports.auth = function (req, res) {
       return res.redirect(`/?msg=${body.message}`);
     }
     req.session.isAdmin = true;
-    res.redirect('/adminvue');
+    res.redirect('/admin');
   });
 }
 
 module.exports.getIndex = function (req, res) {
   if (req.session.isAdmin) {
-    return res.redirect('/adminvue');
+    return res.redirect('/admin');
   }
   
   const pathApi = '/api/avatar';

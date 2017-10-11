@@ -12,7 +12,7 @@ module.exports.getBlog = function (req, res) {
     json: {}
   };
   const sendObj = {
-    title: 'My Blog'
+    title: 'Мой блог'
   };
   http(requestOptions, function (error, response, body) {
     res.render('pages/blog', Object.assign(sendObj, body));
