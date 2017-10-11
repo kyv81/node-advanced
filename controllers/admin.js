@@ -4,7 +4,7 @@ const path = require('path');
 const http = require('request');
 
 const apiOptions = {
-  server: "http://localhost:3000"
+  server: "http://188.225.84.211:3000"
 }
 
 module.exports.getAdminpage = function (req, res) {
