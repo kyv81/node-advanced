@@ -13,8 +13,8 @@
       "port": 465,
       "secure": true,
       "auth": {
-        "user": "ykurbakov81@gmail.com",
-        "pass": "pa$$w0rd4portfolio"
+        "user": "",
+        "pass": ""
       }
     }
   }
